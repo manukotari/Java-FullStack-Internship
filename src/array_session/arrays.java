@@ -14,3 +14,9 @@ public class arrays {
 		}
 	}
 }
+// why array index start from 0:
+//to avoid extra computation  in memory address
+// for eg: if arr[]={1,2,3,4}
+// so here index[0]=1,1=2,2=3,3=4. where it store in memory with address = 1 stored in adrress of 200 2 in 204, 3 in 206, 5 in 208
+// formula is for this calculation 200+[2x2],,
+// if index start from 1, then we have to do 200+[2x3]-2
