@@ -1,5 +1,7 @@
 package mehtod_overloading;
 
+import java.util.Scanner;
+
 public class calculator_app {
 	 public int add(int a, int b) {
 	        return a + b;
@@ -41,6 +43,7 @@ public class calculator_app {
 
     public static void main(String[] args) {
     	calculator_app calc = new calculator_app();
+    	Scanner sc=new Scanner(System.in);
         System.out.println("Addition of 2 numbers: " + calc.add(10, 20));
         System.out.println("subtraction of 2 numbers: " + calc.sub(10, 20));
         System.out.println("multiplication of 2 numbers: " + calc.mul(10, 20));
