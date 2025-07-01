@@ -1,0 +1,21 @@
+Exception handling in java: exception handling is a mechanism to manage runtime errors and other
+ 							exceptional events that disrupt the normal flow of a program.exception 
+ 							handling is a mechanism to manage runtime errors and other exceptional 
+ 							events that disrupt the normal flow of a program.
+ 			
+ 			Components:
+ 						1. try bock:This block encloses the code that might potentially throw an exception.
+ 						
+ 						2. catch block:This block immediately follows a try block and specifies how to handle
+ 						 	a particular type of exception if it occurs within the try block. Multiple 
+ 						 	catch blocks can be used to handle different types of exceptions.
+ 						 	
+ 						3.finally block: This block is optional and always executes, regardless of whether an 
+ 										exception occurred or was handled  
+ 										
+ 						4. throw keyword: This keyword is used to explicitly throw an exception from within a method.
+ 						
+ 						5. throws keyword: This keyword is used in a method signature to declare that the method might throw certain types of checked exceptions. 
+											This forces the calling method to either handle or re-declare these exceptions.
+											
+											

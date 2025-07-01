@@ -2,7 +2,7 @@ polymorphism : Many forms, Polymorphism in Java is a core concept of Object-Orie
 that allows objects to take on "many forms." In essence, it enables a single action to behave
 differently based on the object performing
 
-types: 1. compile time polymorphism : achived by method overloading while compile time.
+types of polymorphism: 1. compile time polymorphism : achived by method overloading while compile time.
 			 it is static binding = the link between a function call and its specific definition is established at compile time, before the program even begins execution.
 	   2. run time polymorphism : achived by method overriding while run time. 
 	   		 it is dynamic binding = because the specific method to be executed is determined at runtime rather than at compile time.
